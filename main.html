@@ -4,26 +4,21 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title><h1>Feedback Form</h1></title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<table>
-		<h1>Feedback Form</h1>
-	    <tr>
-		    <th id="name">Name</th>
-		    <th id="portfolio">Portfolio</th>
-		    <th id="favColor">Favorite Color</th>
-		    <th id="likeness">Likeness</th>
-	    </tr>
-		<tr>
-			<td><input type="text" min="3" max="50" id="name" placeholder="Enter your name"></td>
-			<td><a href="https://unsplash.com/photos/attractive-young-woman-having-fun-outside-in-snow-with-her-dog-puppy-921tN_ZHFeY">URL</a></td>
-			<td><input type="color" id="favcolor"></td>
-			<td><input type="range" min="1" max="100" id="likeness"></td>
-		</tr>
-	</table>
-	<button method="post">submit</button>
+	<form>
+		<label id="name">Name
+		<input type="text"></label><br>
+		<label id="portfolio">Portfolio
+		<a href="https://unsplash.com/photos/attractive-young-woman-having-fun-outside-in-snow-with-her-dog-puppy-921tN_ZHFeY">URL</a></label><br>
+		<br>
+		<label id="favColor">Favorite Color <input type="color"></label><br>
+		<label id="likeness">Likeness <input type="range"></label>
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
